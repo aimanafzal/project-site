@@ -1,0 +1,26 @@
+{
+  "name": "project-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --check index.js",
+    "format": "prettier --write index.js",
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimanafzal/project-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimanafzal/project-site/issues"
+  },
+  "homepage": "https://github.com/aimanafzal/project-site#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "actions-toolkit": "^6.0.1"
+  }
+}
